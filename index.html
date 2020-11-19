@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masa's Service</title>
+    <meta name= "description" content="文章mainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrappermainWrapper">
+    <link rel="icon" href="images/logo (1).jpg">
+    <!-- ogpも導入予定 -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="./pace.js"></script>
+</head>
+<body>
+    <div id="global-container">
+        <div id="container">
+            <!-- メニューをクリックしたときにcontainerを暗くするためのからタグ -->
+            <div class="mobile-menu__cover"></div>
+            <!-- header -->
+            <header class="header">
+                <div class="header-logo">
+                    <img class="header-logo-img" src="images/logo (1).jpg" alt="" >
+                </div>
+                <button class="mobile-menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+
+            <!-- swiper -->
+            <div id="content">
+                <div class="hero">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="hero__title">statistic</div>
+                        <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="hero__title">contract</div>
+                        <img src="data:image/jpeg;base64,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" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="hero__title">technology</div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq853VX__zJxsQ4V3NrKZRirIA6F0HvqTmMg&usqp=CAU" alt="" />
+                      </div>
+                    </div>
+                    <div class="hero__footer">
+                      <img class="hero__downarrow" src="images/arrow.svg">
+                      <span class="hero__scrolltext">scroll</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="main-wrapper">
+                <div class="subcontainer">
+                  <div class="Main-title">
+                    <h1>welcome to <strong>Masa's Service</strong></h1>
+                  </div>
+                  <div class="sentence sentence1">
+                    <h2>コンセプトコンセプトコンセプトコンセプトコンセプトコンセプトコンセプトコンセプトコンセプ</h2>
+                    <p>会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明会社説明</h2>
+                  
+                      <p>like this We seed the customer satisfaction</p>
+                      <p>like this We promise to meet the expectation</p>
+                      <p>文書：費用対効果にご満足いただけるホームページ, WEBサイトをお約束いたします。</p>
+                    
+                  </div>
+                </div>
+            </div>
+
+            <div class="polygon1 polygon"></div>
+              <div class="service">
+                <div class="service-wrapper">
+                  <div class="subcontainer">
+                    <h1>service</h1>
+                    <div class="services">
+                      <div class="service-icon">
+                        <h3>delection</h3>
+                        <p>ディレクション</p>
+                        <img src="">
+                        <span><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i></span>
+                        <p class="exp">お客様の要望をヒアリングし、現状の問題点を洗い出し、効果的なプランを作成いたします。制作ではdesign前の事前準備がより重要となります。何が必要でまた不必要なのかを正確に判断し、集客効果の高いWebサイトを作るための基盤を作ります。</p>
+            
+            
+                      </div>
+                      <div class="service-icon">
+                        <h3>English title</h3>
+                        <p>日本語タイトル</p>
+                        <img src="" class="icon" >
+                        <p class="exp">文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd</p>
+                      </div>
+                      <div class="service-icon">
+                        <h3>English title</h3>
+                        <p>日本語タイトル</p>
+                        <img src="">
+                        <p class="exp">文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd文章ぶんadd</p>
+            
+          
+                      </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="mainWrapper">
+                <div class="main-info">
+                    <div class="info-title">
+                        <h2>Info & Access</h2>
+                        <h3>概要とアクセス</h3>
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="information-wrapper" style="margin: 0;">
+    
+    
+                        <!-- <div class="containerw"> -->
+                        <div class="information-title">
+                         <!-- <h2>波之屋名護店</h2> -->
+    
+    
+                        </div>
+                        <div class="information-detail">
+                            <ul>
+                            <li>
+                            
+                                <dl class="information-details">
+                                <dt>住所</dt>
+                                <dd>1310 11th St, Santa Monica, CA 90401 アメリカ合衆国</dd>
+                                <dd class="up960">
+                                    <div class="googleMap">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13228.257763998277!2d-118.4791495302246!3d34.0165568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb242526d98f%3A0x97234c617c926874!2z44K144Oz44K_44Oi44OL44Kr5aSn5a2m!5e0!3m2!1sja!2sjp!4v1605694960043!5m2!1sja!2sjp" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                    </div>
+                                </dd>
+                                <dt>アクセス</dt>
+                                <dd>dkjfdsjfjdsk付近 <br> ファミリーマート・kfsgk通り向かい　</dd>
+                                <dt>TEL</dt>
+                                <dd> <a href="TEL:090-1272-6832">090-1272-6832</a> </dd>
+                                <dt>営業時間</dt>
+                                <dd>水〜月：18:00~3:00  <br> 定休日: 火曜日 </dd>
+                                </dl>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+    
+            </div>
+
+            <div class="footer">
+                <ul>
+                    <li>お問い合わせ</li>
+                    <li>会社概要</li>
+                    <li>SNS</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <nav class="mobile-menu">
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="naminoya_menu.pdf">
+                        <span class="main-title">未入力</span>
+                        <span class="sub-title">未入力</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#">
+                        <span class="main-title">会社概要</span>
+                        <span class="sub-title">about our company/span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="https://www.instagram.com/nagoyakinikunaminoya/">
+                        <span class="main-title">SNS</span>
+                        <span class="sub-title">Facebook</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="TEL:090-1272-6832">
+                        <span class="main-title">お問い合わせ</span>
+                        <span class="sub-title">contact us</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
