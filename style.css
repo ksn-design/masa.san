@@ -877,6 +877,10 @@ video {
   text-align: center;
 }
 
+.service-wrapper p {
+  text-align: center;
+}
+
 .service-wrapper .services {
   margin: 0 auto;
   width: 100%;
